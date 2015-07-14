@@ -1,0 +1,19 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+  <script type="text/javascript" src="templating.js"></script>
+  <script type="text/javascript" src="init.js"></script>
+</head>
+<body>
+  <div id="medalDiv"></div>
+  <script type="text/html" id="medalTemplate">
+    <tr id="row<%=id%>">
+      <td><%=name%></td>
+      <td><%=medal%></td>
+      <td><%=about%></td>
+      <td><img src="<%=img%>"/></td>
+      <td><%=sport%></td>
+    </tr>
+  </script>
+</body>
+</html>
